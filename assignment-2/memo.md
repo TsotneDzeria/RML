@@ -7,6 +7,7 @@
 This memo summarizes the findings from using three explanation methods on a gradient-boosted classifier trained with the COMPAS recidivism dataset. It covers what the model seems to have learned, the limits of the methods used, and the recommended further monitoring.
 
 **What the explanations reveal**
+
 Both SHAP and LIME consistently show that prior arrest history and age are the main factors driving high-risk predictions for all four individuals studied. SHAP values confirm that higher prior counts push individual predictions above average, while older age pulls them down. The counterfactual analysis shows that it is possible to change the predictions by altering priors_count or crime_factor alone, without needing to change 'race_factor' or 'gender_factor'. This is a necessary condition for considering the model free of direct proxy discrimination on those features, although it does not guarantee fairness overall.
 
 **Limitations of the methods**  
