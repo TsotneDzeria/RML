@@ -1,5 +1,7 @@
 **Memorandum**
+
 **To:** Court Auditor
+
 **Re:** Explainability Audit of the COMPAS Replacement Model
 
 This memo summarizes the findings from using three explanation methods on a gradient-boosted classifier trained with the COMPAS recidivism dataset. It covers what the model seems to have learned, the limits of the methods used, and the recommended further monitoring.
