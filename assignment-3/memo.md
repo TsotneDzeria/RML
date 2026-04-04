@@ -18,7 +18,7 @@ We employed three primary fairness metrics to evaluate the system:
 While the statistical evidence of bias is robust, the following limitations must be considered:
 *   **Lack of Causality:** The metrics identify correlations and outcomes but do not isolate the specific causal mechanisms (e.g., systemic policing biases vs. algorithmic design) driving these disparities.
 *   **Label Bias:** The 'recidivism' outcome is measured by re-arrest, which is a proxy for criminal behavior and may itself be influenced by racially disparate policing patterns.
-*   **Omitted Variables:** The analysis is restricted to the features provided in the ProPublica dataset; unobserved socioeconomic factors may influence recidivism rates independent of the variables analyzed.
+*   **Omitted Variables:** The analysis is restricted to the features provided in the ProPublica dataset. Unobserved socioeconomic factors may influence recidivism rates independent of the variables analyzed.
 
 ### Conclusion
 The current implementation of the COMPAS system demonstrates significant disparate impact and unequal error distributions. We recommend a review of the model's weightings and an investigation into alternative, less-discriminatory assessment methodologies.
