@@ -2,7 +2,7 @@
 
 **To:** Regulatory Oversight Committee  
 **From:** Lead Data Scientist  
-**Date:** October 26, 2023  
+**Date:** April 4, 2026
 **Subject:** Summary of Risk Assessment Algorithm Audit
 
 ### Executive Summary
